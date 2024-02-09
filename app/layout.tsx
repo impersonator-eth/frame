@@ -28,7 +28,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body
+        style={{
+          backgroundColor: "#1a202c",
+          color: "white",
+        }}
+      >
+        {children}
+      </body>
     </html>
   );
 }
